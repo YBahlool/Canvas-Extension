@@ -1,18 +1,7 @@
 import requests
 import json
-import re
 import datetime
 import pytz
-
-
-
-
-
-
-
-params = {
-    'bucket': 'upcoming'
-}
 
 def collect_active_course_ids(headers, courses_url) :
     params = {
